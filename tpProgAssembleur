@@ -1,0 +1,11 @@
+les interruptions et numéros d'appel utilisés dans le programme bonjour sont:
+    eax, 4
+    ebx, 1
+    ecx,
+    edx
+
+int 80h: cette instruction déclenche une interruption logicielle pour appeler la fonction système correspondant aux valeurs des registres 'eax, ebx, ecx, edx'
+            c-a-d elle sert a invoquer des fonctions du noyau du Systeme d'exploitation
+
+
+l'appel système permettant de creer un repertoir (mkdir) est 39
