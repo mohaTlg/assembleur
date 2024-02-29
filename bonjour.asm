@@ -1,5 +1,5 @@
 section .data
-message: db 'Bonjour', 10
+message: db 'Bonjour toi', 10
 longueur: equ $-message
 message2: db 'chez vous ', 10
 longueur2: equ $-message2
